@@ -1,0 +1,19 @@
+[user]
+	name = BeiDai
+	email = "xujialiang110@gmail.com "
+[gui]
+	recentrepo = A:/Github/MarkDown
+	recentrepo = A:/Github/STM32F407ZGT6_MDK
+[core]
+	safecrlf = false
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[alias]
+	ci = commit
+	ad = add .
+	br = branch
+	hi = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+	st = status
