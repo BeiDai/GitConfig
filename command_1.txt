@@ -1,0 +1,40 @@
+# Git 命令
+
+  git
+
+  git help -a
+
+  git blame 文件名    //查看变更记录
+
+  git blame -L 5,10 文件名 //从第五行到第十行
+
+  git clean -n    //列出没有放到暂存区的文件
+
+  git clean -f    //删除没有列到暂存区的所有文件
+
+  git clean -x -f //删除被.gitignore忽略的文件
+
+  git status -sb  //简化查看信息量
+
+
+# Git add 深入讲解
+
+  git rm 文件名 // rm 文件名  //删除文件
+
+  git mv a b //把a名改为b
+
+  git mv b  ./xx  //把b移动到xx文件夹
+  
+  git diff //查看文件变更
+
+  git add -p  // 按文件版本提交  y分割提交
+ 
+  git diff --cached
+
+  git show HEAD^
+
+# git commit 深入讲解
+
+  
+
+
